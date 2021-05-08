@@ -65,7 +65,25 @@ void navegacaoCliente(void){
 
 
 void cadastrarCliente(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*            CADASTRAR DE CLIENTE            *\n");
+  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨            *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Data de cadastro:           |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Cliente:                    |     *\n");
+  printf("*     |    Cidade:                     |     *\n");
+  printf("*     |    Estado:                     |     *\n"); 
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
 
 void altualizarCliente(void){
