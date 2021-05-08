@@ -1,23 +1,4 @@
-/*************************************************/
-/*  Universidade Federal do Rio Grande do Norte  */
-/*      Centro de Ensino Superior do Seridó      */
-/*   Departamento de Computação e Tecnologia     */
-/*       Disciplina DCT1106 -- Programação       */
-/*      Centro de Ensino Superior do Serido      */
-/*   Departamento de Computacao e Tecnologia     */
-/*       Disciplina DCT1106 -- Programacao       */
-/*    Projeto Sistema de Controle de Estoques    */
-/*     Developed by @anniellyfs - Jan, 2021      */
-/*     Developed by @           - Jan, 2021      */
-/*************************************************/
-
 #include <stdio.h>
-
-void menuSobre(void);
-int main(void) {
-    menuSobre();
-    return 0;
-}
 
 void menuSobre(void){
   printf("=====================================================\n");
