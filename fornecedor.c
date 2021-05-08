@@ -31,6 +31,7 @@ char menuFornecedor(void){
 return op;
 }
 
+
 void navegacaoFornecedor(void){
     char op;
     op = menuFornecedor();
@@ -61,5 +62,22 @@ void navegacaoFornecedor(void){
     }while(op != '0');
     getchar();
     return op;
-
 }
+
+
+void cadastrarFornecedor(void){
+    printf("EM DESENVOLVIMENTO!");
+}
+
+void altualizarFornecedor(void){
+    printf("EM DESENVOLVIMENTO!");
+}
+
+void pesquisarFornecedor(void){
+    printf("EM DESENVOLVIMENTO!");
+}
+
+void excluirFornecedor(void){
+    printf("EM DESENVOLVIMENTO!");
+}
+ 
