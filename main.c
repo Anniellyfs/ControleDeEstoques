@@ -11,49 +11,80 @@
 /*     Developed by @           - Jan, 2021      */
 /*************************************************/
 
+//BIBLIOTECAS NECESSÁRIAS PARA O PROGRAMA
 #include <stdio.h>
 #include <stdlib.h>
+#include "assinPrincipalEsobre.h"
 
-void menuSobre(void);
 
+//FUNÇÃO PRINCIPAL
 int main(void) {
   char op;
-  menuSobre();
-  system("cls" || "clear");
-  // do{
-  //   switch (op)
-  //   {
-  //     // case '1':
-  //     //   menuFornecedor();
-  //     //   break;
+  system("cls || clear");
+  do{
+    op = menuPrincipal();
+    switch (op)
+    {
+      // case '1':
+      //   menuFornecedor();
+      //   break;
       
-  //     // case '2':
-  //     //   menuClintes();
-  //     //   break;
+      // case '2':
+      //   menuClintes();
+      //   break;
 
-  //     // case '3':
-  //     //   menuEntradaProd();
-  //     //   break;
+      // case '3':
+      //   menuEntradaProd();
+      //   break;
       
-  //     // case '4':
-  //     //   menuSaidaProd();
-  //     //   break;
+      // case '4':
+      //   menuSaidaProd();
+      //   break;
       
-  //     // case '5':
-  //     //   menuEstoque();
-  //     //   break;
+      // case '5':
+      //   menuEstoque();
+      //   break;
 
-  //     case '6':
-  //       sobre();
-  //       break;
+      case '6':
+        menuSobre();
+        break;      
 
-  //     default:
-  //       printf("A OPCAO DIGITADA EH INVALIDA!");
-  //       printf("Digite novamente!");
-  //       break;
-  //   }
+      default:
+        printf("A OPCAO DIGITADA EH INVALIDA!");
+        printf("Digite novamente!");
+        break;
+    }
 
-  // }while (op != '0');
+  }while (op != '0');
 
 return 0;
 }
+
+
+//MENU PRINCIPAL
+char menuPrincipal(void){
+  char op;
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*               MENU PRINCIPAL               *\n");
+  printf("*                                            *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |       [1]  Fornecedores        |     *\n");
+  printf("*     |       [2]  Clientes            |     *\n");
+  printf("*     |       [3]  Entrada             |     *\n");
+  printf("*     |       [4]  Saidas              |     *\n");
+  printf("*     |       [5]  Estoque             |     *\n"); 
+  printf("*     |       [6]  Sobre               |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  scanf("%s", op);
+  getchar();
+return op;
+}
+
+  
