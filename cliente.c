@@ -68,8 +68,8 @@ void cadastrarCliente(void){
   system("cls || clear");
   printf("**********************************************\n");
   printf("*                                            *\n");
-  printf("*            CADASTRAR DE CLIENTE            *\n");
-  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨            *\n");
+  printf("*             CADASTRAR CLIENTE              *\n");
+  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
