@@ -65,18 +65,92 @@ void navegacaoEntrada(void){
 
 
 void cadastrarEntrada(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*             CADASTRAR ENTRADA              *\n");
+  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Codigo:                     |     *\n");
+  printf("*     |    Data:                       |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor:                 |     *\n");
+  printf("*     |    Produto:                    |     *\n");
+  printf("*     |    Qtde:                       |     *\n"); 
+  printf("*     |    Preço:                      |     *\n");
+  printf("*     |    Total:                      |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
 
 void altualizarEntrada(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*             ATUALIZAR ENTRADA              *\n");
+  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Codigo:                     |     *\n");
+  printf("*     |    Data:                       |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor:                 |     *\n");
+  printf("*     |    Produto:                    |     *\n");
+  printf("*     |    Qtde:                       |     *\n"); 
+  printf("*     |    Preço:                      |     *\n");
+  printf("*     |    Total:                      |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
 
 void pesquisarEntrada(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*             PESQUISAR ENTRADA              *\n");
+  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Codigo:                     |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor                  |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
 
 void excluirEntrada(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*              EXCLUIR ENTRADA               *\n");
+  printf("*             ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨              *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Codigo:                     |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor                  |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
  
