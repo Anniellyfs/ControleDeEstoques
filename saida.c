@@ -65,18 +65,92 @@ void navegacaoSaida(void){
 
 
 void cadastrarSaida(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*              CADASTRAR SAIDA               *\n");
+  printf("*             ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨              *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Codigo:                     |     *\n");
+  printf("*     |    Data:                       |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor:                 |     *\n");
+  printf("*     |    Produto:                    |     *\n");
+  printf("*     |    Qtde:                       |     *\n"); 
+  printf("*     |    Preço:                      |     *\n");
+  printf("*     |    Total:                      |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
 
 void altualizarSaida(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*              ATUALIZAR SAIDA               *\n");
+  printf("*             ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨              *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Codigo:                     |     *\n");
+  printf("*     |    Data:                       |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor:                 |     *\n");
+  printf("*     |    Produto:                    |     *\n");
+  printf("*     |    Qtde:                       |     *\n"); 
+  printf("*     |    Preço:                      |     *\n");
+  printf("*     |    Total:                      |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
 
 void pesquisarSaida(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*              PESQUISAR SAIDA               *\n");
+  printf("*             ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨              *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Codigo:                     |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor                  |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
 
 void excluirSaida(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*               EXCLUIR SAIDA                *\n");
+  printf("*              ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨               *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Codigo:                     |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor                  |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
  
