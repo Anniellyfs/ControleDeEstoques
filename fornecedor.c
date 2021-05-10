@@ -11,7 +11,7 @@ char menuFornecedor(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*              MENU FORNECEDOR               *\n");
-  printf("*                                            *\n");
+  printf("*             =================              *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");

@@ -15,6 +15,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "assinPrincipalEsobre.h"
+#include "cliente.h"
+#include "entrada.h"
+#include "estoque.h"
+#include "fornecedor.h"
+#include "saida.h"
 
 
 //FUNÇÃO PRINCIPAL
@@ -30,15 +35,15 @@ int main(void) {
         break;
       
       case '2':
-        menuClintes();
+        menuCliente();
         break;
 
       case '3':
-        menuEntradaProd();
+        menuEntrada();
         break;
       
       case '4':
-        menuSaidaProd();
+        menuSaida();
         break;
       
       case '5':
@@ -66,7 +71,7 @@ char menuPrincipal(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*               MENU PRINCIPAL               *\n");
-  printf("*              ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨              *\n");
+  printf("*              ================              *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");

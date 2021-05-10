@@ -10,7 +10,7 @@ char menuEstoque(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*                MENU ESTOQUE                *\n");
-  printf("*                                            *\n");
+  printf("*               ==============               *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");

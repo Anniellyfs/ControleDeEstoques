@@ -10,7 +10,7 @@ char menuEntrada(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*                MENU ENTRADA                *\n");
-  printf("*                                            *\n");
+  printf("*              ================              *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
@@ -68,7 +68,7 @@ void cadastrarEntrada(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*             CADASTRAR ENTRADA              *\n");
-  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
+  printf("*            ====================            *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
@@ -93,7 +93,7 @@ void altualizarEntrada(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*             ATUALIZAR ENTRADA              *\n");
-  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
+  printf("*            ===================             *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
@@ -118,7 +118,7 @@ void pesquisarEntrada(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*             PESQUISAR ENTRADA              *\n");
-  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
+  printf("*            ===================             *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
@@ -138,7 +138,7 @@ void excluirEntrada(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*              EXCLUIR ENTRADA               *\n");
-  printf("*             ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨              *\n");
+  printf("*             =================              *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");

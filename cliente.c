@@ -10,7 +10,7 @@ char menuCliente(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*                MENU CLIENTE                *\n");
-  printf("*                                            *\n");
+  printf("*               ==============               *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
@@ -67,7 +67,7 @@ void cadastrarCliente(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*             CADASTRAR CLIENTE              *\n");
-  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
+  printf("*            ===================             *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
@@ -89,7 +89,7 @@ void altualizarCliente(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*             ATUALIZAR CLIENTE              *\n");
-  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
+  printf("*            ===================             *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
@@ -111,7 +111,7 @@ void pesquisarCliente(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*             PESQUISAR CLIENTE              *\n");
-  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
+  printf("*            ===================             *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
@@ -130,7 +130,7 @@ void excluirCliente(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*             PESQUISAR CLIENTE              *\n");
-  printf("*            ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨             *\n");
+  printf("*            ===================             *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
