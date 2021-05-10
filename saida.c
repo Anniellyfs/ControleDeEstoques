@@ -60,7 +60,7 @@ void navegacaoSaida(void){
         }
     }while(op != '0');
     getchar();
-    return op;
+
 }
 
 

@@ -60,7 +60,6 @@ void navegacaoEntrada(void){
         }
     }while(op != '0');
     getchar();
-    return op;
 }
 
 

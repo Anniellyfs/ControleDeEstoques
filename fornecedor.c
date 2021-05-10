@@ -61,7 +61,7 @@ void navegacaoFornecedor(void){
         }
     }while(op != '0');
     getchar();
-    return op;
+
 }
 
 

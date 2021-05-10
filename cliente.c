@@ -32,35 +32,33 @@ return op;
 
 
 void navegacaoCliente(void){
-    char op;
-    op = menuCliente();
-    do{
-        switch (op)
-        {
-        case '1':
-            cadastrarCliente();
-            break;
+  char op;
+  op = menuCliente();
+  do{
+    switch (op) {
+      case '1':
+        cadastrarCliente();
+        break;
         
-        case '2':
-            altualizarcliente();
-            break;
+      case '2':
+        altualizarCliente();
+        break;
 
-        case '3':
-            pesquisarCliente();
-            break;
+      case '3':
+        pesquisarCliente();
+        break;
         
-        case '4':
-            excluirCliente();
-            break;
+      case '4':
+        excluirCliente();
+        break;
 
-        default:
-            printf("A OPCAO DIGITADA EH INVALIDA!");
-            printf("Digite novamente!");
-            break;
-        }
-    }while(op != '0');
-    getchar();
-    return op;
+      default:
+        printf("A OPCAO DIGITADA EH INVALIDA!");
+        printf("Digite novamente!");
+        break;
+    }
+  }while(op != '0');
+  getchar();
 }
 
 
