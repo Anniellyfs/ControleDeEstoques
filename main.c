@@ -25,25 +25,25 @@ int main(void) {
     op = menuPrincipal();
     switch (op)
     {
-      // case '1':
-      //   menuFornecedor();
-      //   break;
+      case '1':
+        menuFornecedor();
+        break;
       
-      // case '2':
-      //   menuClintes();
-      //   break;
+      case '2':
+        menuClintes();
+        break;
 
-      // case '3':
-      //   menuEntradaProd();
-      //   break;
+      case '3':
+        menuEntradaProd();
+        break;
       
-      // case '4':
-      //   menuSaidaProd();
-      //   break;
+      case '4':
+        menuSaidaProd();
+        break;
       
-      // case '5':
-      //   menuEstoque();
-      //   break;
+      case '5':
+        menuEstoque();
+        break;
 
       case '6':
         menuSobre();
@@ -66,7 +66,7 @@ char menuPrincipal(void){
   printf("**********************************************\n");
   printf("*                                            *\n");
   printf("*               MENU PRINCIPAL               *\n");
-  printf("*                                            *\n");
+  printf("*              ¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨¨              *\n");
   printf("*     __________________________________     *\n");
   printf("*     |                                |     *\n");
   printf("*     |                                |     *\n");
