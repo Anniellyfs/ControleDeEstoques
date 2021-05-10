@@ -33,8 +33,9 @@ return op;
 
 void navegacaoEstoque(void){
     char op;
-    op = menuEstoque();
+    
     do{
+        op = menuEstoque();
         switch (op)
         {
         case '1':

@@ -33,8 +33,9 @@ return op;
 
 void navegacaoCliente(void){
   char op;
-  op = menuCliente();
+  
   do{
+    op = menuCliente();
     switch (op) {
       case '1':
         cadastrarCliente();
@@ -58,7 +59,6 @@ void navegacaoCliente(void){
         break;
     }
   }while(op != '0');
-  getchar();
 }
 
 

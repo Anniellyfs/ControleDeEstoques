@@ -33,8 +33,9 @@ return op;
 
 void navegacaoEntrada(void){
     char op;
-    op = menuEntrada();
+    
     do{
+      op = menuEntrada();
         switch (op)
         {
         case '1':
