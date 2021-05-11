@@ -26,7 +26,7 @@ char menuCliente(void){
   printf("*                                            *\n");
   printf("*                                            *\n");
   printf("**********************************************\n");
-  scanf("%s", op);
+  scanf("%s", &op);
   getchar();
 return op;
 }
