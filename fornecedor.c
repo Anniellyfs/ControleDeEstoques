@@ -1,6 +1,7 @@
 //BIBLIOTECAS NECESSÁRIAS PARA O PROGRAMA
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "fornecedor.h"
 
 
@@ -34,7 +35,7 @@ return op;
 
 void navegacaoFornecedor(void){
     char op;
-    
+    system("cls || clear");
     do{
         op = menuFornecedor();
         switch (op)
@@ -42,7 +43,7 @@ void navegacaoFornecedor(void){
         case '1':
             cadastrarFornecedor();
             break;
-        
+         
         case '2':
             altualizarFornecedor();
             break;

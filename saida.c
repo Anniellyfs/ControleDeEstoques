@@ -1,6 +1,7 @@
 //BIBLIOTECAS NECESSÁRIAS PARA O PROGRAMA
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "saida.h"
 
 
@@ -33,7 +34,7 @@ return op;
 
 void navegacaoSaida(void){
     char op;
-   
+    system("cls || clear");
     do{
       op = menuSaida();
         switch (op)

@@ -14,6 +14,7 @@
 //BIBLIOTECAS NECESSÁRIAS PARA O PROGRAMA
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "assinPrincipalEsobre.h"
 #include "cliente.h"
 #include "entrada.h"
@@ -31,23 +32,23 @@ int main(void) {
     switch (op)
     {
       case '1':
-        menuFornecedor();
+        navegacaoFornecedor();
         break;
       
       case '2':
-        menuCliente();
+        navegacaoCliente();
         break;
 
       case '3':
-        menuEntrada();
+        navegacaoEntrada();
         break;
       
       case '4':
-        menuSaida();
+        navegacaoSaida();
         break;
       
       case '5':
-        menuEstoque();
+        navegacaoEstoque();
         break;
 
       case '6':
@@ -61,6 +62,7 @@ int main(void) {
     }
 
   }while (op != '0');
+
 return 0;
 }
 
