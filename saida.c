@@ -74,7 +74,7 @@ void cadastrarSaida(void){
   printf("*     |    Codigo:                     |     *\n");
   printf("*     |    Data:                       |     *\n");
   printf("*     |    CNPJ:                       |     *\n");
-  printf("*     |    Fornecedor:                 |     *\n");
+  printf("*     |    Cliente:                    |     *\n");
   printf("*     |    Produto:                    |     *\n");
   printf("*     |    Qtde:                       |     *\n"); 
   printf("*     |    Preco:                      |     *\n");
@@ -99,7 +99,7 @@ void altualizarSaida(void){
   printf("*     |    Codigo:                     |     *\n");
   printf("*     |    Data:                       |     *\n");
   printf("*     |    CNPJ:                       |     *\n");
-  printf("*     |    Fornecedor:                 |     *\n");
+  printf("*     |    Cliente:                    |     *\n");
   printf("*     |    Produto:                    |     *\n");
   printf("*     |    Qtde:                       |     *\n"); 
   printf("*     |    Preco:                      |     *\n");
@@ -123,7 +123,7 @@ void pesquisarSaida(void){
   printf("*     |                                |     *\n");
   printf("*     |    Codigo:                     |     *\n");
   printf("*     |    CNPJ:                       |     *\n");
-  printf("*     |    Fornecedor                  |     *\n");
+  printf("*     |    Cliente:                    |     *\n");
   printf("*     |                                |     *\n");
   printf("*     |________________________________|     *\n");
   printf("*                                            *\n");
@@ -143,7 +143,7 @@ void excluirSaida(void){
   printf("*     |                                |     *\n");
   printf("*     |    Codigo:                     |     *\n");
   printf("*     |    CNPJ:                       |     *\n");
-  printf("*     |    Fornecedor                  |     *\n");
+  printf("*     |    Cliente:                    |     *\n");
   printf("*     |                                |     *\n");
   printf("*     |________________________________|     *\n");
   printf("*                                            *\n");
