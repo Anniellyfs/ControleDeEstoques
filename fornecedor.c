@@ -64,18 +64,84 @@ void navegacaoFornecedor(void){
 
 
 void cadastrarFornecedor(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*            CADASTRAR FORNECEDOR            *\n");
+  printf("*            ====================            *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Data de cadastro:           |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor:                 |     *\n");
+  printf("*     |    Cidade:                     |     *\n");
+  printf("*     |    Estado:                     |     *\n"); 
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
 
 void altualizarFornecedor(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*            ATUALIZAR FORNECEDOR            *\n");
+  printf("*            ====================            *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    Data de cadastro:           |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor:                 |     *\n");
+  printf("*     |    Cidade:                     |     *\n");
+  printf("*     |    Estado:                     |     *\n"); 
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
 
 void pesquisarFornecedor(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*            PESQUISAR FORNECEDOR            *\n");
+  printf("*            ====================            *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor:                 |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
 
 void excluirFornecedor(void){
-    printf("EM DESENVOLVIMENTO!");
+  system("cls || clear");
+  printf("**********************************************\n");
+  printf("*                                            *\n");
+  printf("*             EXCLUIR FORNECEDOR             *\n");
+  printf("*             ===================            *\n");
+  printf("*     __________________________________     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |    CNPJ:                       |     *\n");
+  printf("*     |    Fornecedor:                 |     *\n");
+  printf("*     |                                |     *\n");
+  printf("*     |________________________________|     *\n");
+  printf("*                                            *\n");
+  printf("*                                            *\n");
+  printf("**********************************************\n");
+  getchar();
 }
  
