@@ -4,6 +4,7 @@
 #include <string.h>
 #include "cliente.h"
 
+typedef struct cliente Cliente;
 
 char menuCliente(void){
   char op;

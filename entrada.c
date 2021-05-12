@@ -4,6 +4,7 @@
 #include <string.h>
 #include "entrada.h"
 
+typedef struct entrada Entrada;
 
 char menuEntrada(void){
   char op;

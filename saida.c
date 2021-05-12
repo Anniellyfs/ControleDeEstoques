@@ -4,6 +4,7 @@
 #include <string.h>
 #include "saida.h"
 
+typedef struct saida Saida;
 
 char menuSaida(void){
   char op;
