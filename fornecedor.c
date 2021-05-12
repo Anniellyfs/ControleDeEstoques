@@ -4,6 +4,7 @@
 #include <string.h>
 #include "fornecedor.h"
 
+typedef struct fornecedor Fornecedor;
 
 //MENU PRINCIPAL
 char menuFornecedor(void){
