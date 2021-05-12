@@ -55,10 +55,6 @@ void navegacaoEstoque(void){
             excluirEstoque();
             break;
 
-        default:
-            printf("A OPCAO DIGITADA EH INVALIDA!");
-            printf("Digite novamente!");
-            break;
         }
     }while(op != '0');
     getchar();
