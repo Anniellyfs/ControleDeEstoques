@@ -55,10 +55,6 @@ void navegacaoSaida(void){
             excluirSaida();
             break;
 
-        default:
-            printf("A OPCAO DIGITADA EH INVALIDA!");
-            printf("Digite novamente!");
-            break;
         }
     }while(op != '0');
     getchar();
@@ -81,7 +77,7 @@ void cadastrarSaida(void){
   printf("*     |    Fornecedor:                 |     *\n");
   printf("*     |    Produto:                    |     *\n");
   printf("*     |    Qtde:                       |     *\n"); 
-  printf("*     |    Preço:                      |     *\n");
+  printf("*     |    Preco:                      |     *\n");
   printf("*     |    Total:                      |     *\n");
   printf("*     |                                |     *\n");
   printf("*     |________________________________|     *\n");
@@ -106,7 +102,7 @@ void altualizarSaida(void){
   printf("*     |    Fornecedor:                 |     *\n");
   printf("*     |    Produto:                    |     *\n");
   printf("*     |    Qtde:                       |     *\n"); 
-  printf("*     |    Preço:                      |     *\n");
+  printf("*     |    Preco:                      |     *\n");
   printf("*     |    Total:                      |     *\n");
   printf("*     |                                |     *\n");
   printf("*     |________________________________|     *\n");

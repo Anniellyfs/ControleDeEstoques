@@ -76,7 +76,7 @@ void cadastrarEntrada(void){
   printf("*     |    Fornecedor:                 |     *\n");
   printf("*     |    Produto:                    |     *\n");
   printf("*     |    Qtde:                       |     *\n"); 
-  printf("*     |    Preço:                      |     *\n");
+  printf("*     |    Preco:                      |     *\n");
   printf("*     |    Total:                      |     *\n");
   printf("*     |                                |     *\n");
   printf("*     |________________________________|     *\n");
@@ -101,7 +101,7 @@ void altualizarEntrada(void){
   printf("*     |    Fornecedor:                 |     *\n");
   printf("*     |    Produto:                    |     *\n");
   printf("*     |    Qtde:                       |     *\n"); 
-  printf("*     |    Preço:                      |     *\n");
+  printf("*     |    Preco:                      |     *\n");
   printf("*     |    Total:                      |     *\n");
   printf("*     |                                |     *\n");
   printf("*     |________________________________|     *\n");

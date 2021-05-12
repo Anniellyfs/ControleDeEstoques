@@ -48,7 +48,7 @@ int main(void) {
         break;
       
       case '5':
-        navegacaoEstoque();
+        menuEstoque();
         break;
 
       case '6':
